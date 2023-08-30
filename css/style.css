@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+.face1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    animation-name: face1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+}
+.e{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:white;
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+    z-index: 5;  
+}
+.inside-e1-3-5{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: 14px;
+}
+
+.mouth1-3-5{
+    width: 70px;
+    height: 20px;
+    float: left;
+    margin-left: 58px;
+    margin-top: 20px;
+    border-radius: 30px 30px 150px 150px;
+    background-color: black;
+}
+.nose{
+    width: 13px;
+    height: 50px;
+    float: left;
+    margin-left: 85px;
+    border-bottom-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+   /* margin-top: 10px;*/
+    background-color: black;
+}
+.body{
+    height: 70px;
+    width: 50px;
+    background-color: black;
+}
+@keyframes face1{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+       right: 0;
+    }
+}
+/*////////////////////////////////*/
+.face2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    top: 195px;
+    right: 0;
+    animation-name: face2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    animation-delay: 1s;
+}
+.mouth2-4-6{
+    width: 70px;
+    height: 20px;
+    float: left;
+    margin-left: 58;
+    margin-top: 20px;
+    border-radius: 150px 150px 30px 30px;
+    background-color: black;
+}
+
+@keyframes face2{
+    0%{
+        right: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+       left: 0;
+    }
+}
+/*//////////////////////////////////////////////////////////////////*/
+.face3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    top: 390px;
+    animation-name: face3;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+@keyframes face3{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+       right: 0;
+    }
+}
+
+.face4 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    top: 585px;
+    right: 0;
+    animation-name: face4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+   animation-delay: 4s;
+}
+@keyframes face4{
+    0%{
+        right: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+       left: 0;
+    }
+}
+.face5 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    top: 780px;
+    animation-name: face5;
+
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+@keyframes face5{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+        right: 0;
+    }
+}
+.face6{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(247, 219, 166);  
+    position: absolute;
+    top: 975px;
+    right: 0;
+    animation-name: face6;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+.inside-e{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 5px;
+}
+@keyframes face6{
+    0%{
+        right: 0;
+    }
+    50%{
+        left: 1340px;
+    }
+    100%{
+       left: 0;
+    }
+}
